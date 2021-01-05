@@ -11,3 +11,9 @@ print(randomstring(16, charset="abcd"))
 print(randomstring(16, as_list=True))
 print(fromatstring("xxxx-xxxxxxxx-xxxx"))
 ```
+
+# List of functions:
+
+### `randomstring(length: int, charset: str = default_charset, as_list: bool = False) -> str`
+---
+### ``

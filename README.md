@@ -16,4 +16,4 @@ print(fromatstring("xxxx-xxxxxxxx-xxxx"))
 
 ### `randomstring(length: int, charset: str = default_charset, as_list: bool = False) -> str`
 ---
-### ``
+### `formatstring(text: str, letter: str = "x", charset: str = default_charset) -> str`

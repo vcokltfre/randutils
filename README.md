@@ -9,7 +9,7 @@ from randutils import randomstring, formatstring
 print(randomstring(16))
 print(randomstring(16, charset="abcd"))
 print(randomstring(16, as_list=True))
-print(fromatstring("xxxx-xxxxxxxx-xxxx"))
+print(formatstring("xxxx-xxxxxxxx-xxxx"))
 ```
 
 # List of functions:

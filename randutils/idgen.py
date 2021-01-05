@@ -20,5 +20,3 @@ def randomstring(length: int, charset: str = default_charset, as_list: bool = Fa
 
 def formatstring(text: str, letter: str = "x", charset: str = default_charset) -> str:
     return replace(text, randomstring(text.count(letter), as_list=True))
-
-print(formatstring("xxxx-xxxxxxxx-xxxx"))
